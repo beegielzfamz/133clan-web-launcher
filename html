@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>133CLAN Web Launcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>133CLAN TERMINAL LAUNCHER</h1>
+  <div class="apps">
+    <div class="app" onclick="openApp('https://t.me')">
+      <img src="assets/telegram.png" alt="Telegram">
+      <span>Telegram</span>
+    </div>
+    <div class="app" onclick="openApp('https://termux.dev')">
+      <img src="assets/termux.png" alt="Termux">
+      <span>Termux</span>
+    </div>
+    <div class="app" onclick="openApp('https://duckduckgo.com')">
+      <img src="assets/browser.png" alt="Browser">
+      <span>Browser</span>
+    </div>
+  </div>
+  <footer>Self Esteem Prices Die - 133CLAN 2025</footer>
+
+  <script>
+    function openApp(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
